@@ -240,7 +240,8 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: #E64E1C;
+  
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -641,6 +642,11 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -675,6 +681,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  justify-content: center;
 }
 .row > * {
   flex-shrink: 0;
@@ -3037,12 +3044,12 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  background-color: #E64E1C;
+  border-color: #000000;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #d9aa00;
+  background-color: #E64E1C;
   border-color: #cca000;
   box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
 }
@@ -3157,18 +3164,18 @@ textarea.form-control-lg {
 }
 .btn-warning:hover {
   color: #fff;
-  background-color: #d9aa00;
+  background-color: #E64E1C;
   border-color: #cca000;
 }
 .btn-check:focus + .btn-warning, .btn-warning:focus {
   color: #fff;
-  background-color: #d9aa00;
+  background-color: #E64E1C;
   border-color: #cca000;
   box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
 }
 .btn-check:checked + .btn-warning, .btn-check:active + .btn-warning, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
   color: #fff;
-  background-color: #cca000;
+  background-color: #E64E1C;
   border-color: #bf9600;
 }
 .btn-check:checked + .btn-warning:focus, .btn-check:active + .btn-warning:focus, .btn-warning:active:focus, .btn-warning.active:focus, .show > .btn-warning.dropdown-toggle:focus {
@@ -11465,7 +11472,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: rgba(230, 78, 28, 0.800);
   align-items: center;
   justify-content: center;
   opacity: 0;
